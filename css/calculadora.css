@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+.bg-banner {
+    background: url('../img/background_banner.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.mt-n5 {
+  margin-top: -3rem !important;
+}
