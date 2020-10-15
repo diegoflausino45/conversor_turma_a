@@ -1,0 +1,34 @@
+<div class="row mt-3 justify-content-center">
+    <div class="col-12 col-sm-6 col-md-5">
+        <div class="alert alert-danger">
+            <h1 class="text-center">Calculadora</h1>
+        </div>
+        <form id="calcular">
+            <div class="form-group">
+                <label>Primeiro valor</label>
+                <input type="number" name="vlr01" id="vlr01" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Segundo valor</label>
+                <input type="number" name="vlr02" id="vlr02" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Operação</label>
+                <select name="operacao" id="operacao" class="form-control">
+                    <option value="">Selecione a sua operação desejada</option>
+                    <option value="1">Adição</option>
+                    <option value="2">Subtração</option>
+                    <option value="3">Multiplicação</option>
+                    <option value="4">Divisão</option>
+                </select>
+            </div>
+            <div class="form-group row justify-content-end">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <button class="btn btn-success btn-block btn-calcular">Calcular</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="src/calculadora/controle/calculadora.js"></script>

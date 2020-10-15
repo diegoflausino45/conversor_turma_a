@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
 body {
     font-family: 'Righteous', cursive;
 }
@@ -12,5 +11,5 @@ body {
 }
 
 .mt-n5 {
-  margin-top: -3rem !important;
+    margin-top: -3rem !important;
 }
